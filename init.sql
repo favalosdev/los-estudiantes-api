@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS scores (
+    id SERIAL PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL UNIQUE,
+    score FLOAT(8) NOT NULL
+)
